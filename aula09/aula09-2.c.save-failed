@@ -1,0 +1,11 @@
+#include <stdio.h>
+void imprimir(int m[6]){
+    int i;
+    for(i=0;i<6;i++){
+        printf("%d\n",m[i]);
+    }
+}
+main(){
+    int a[6]={1,0,5,-2,-5,7};
+    imprimir(a);
+}
